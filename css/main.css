@@ -1,0 +1,84 @@
+
+.html {
+	;
+	
+}
+
+h2{
+	text-align: center;
+	margin-top: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	text-transform: capitalize;
+	font-size: 30px;
+	transition: font-size .5s ease-in-out;
+}
+
+body{
+	background-image: url(../img/rasch-portfolio-wooden-panel-striped-beach-cabin-wood-motif-beige-wallpaper-280401-p1501-2396_image.jpg)
+}
+
+
+
+
+
+h2:hover {
+	font-size: 40px;
+}
+
+
+
+
+#photos1 {
+	position:relative;
+  	height:300px;
+  	width:500px;
+  	margin:0 auto;
+	
+	
+}
+
+#photos1 img{
+position:absolute;
+  left:0;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+	border-radius: 20px;
+	border: solid 5px black;
+	
+
+}
+
+#photos1 img.top:hover {
+  opacity:0;
+}
+
+#photos2 {
+	position:relative;
+  	height:300px;
+  	width:500px;
+  	margin:0 auto;
+	margin-top: 20px;
+	
+}
+
+#photos2 img{
+position:absolute;
+  left:0;
+  -webkit-transition: opacity 2s ease-in-out;
+  -moz-transition: opacity 2s ease-in-out;
+  -o-transition: opacity 2s ease-in-out;
+  transition: opacity 2s ease-in-out;
+	border-radius: 20px;
+	border: solid 5px black;
+
+}
+
+#photos2 img.top:hover {
+  opacity:0;
+}
+
+#display img {
+	display: inline;
+}
